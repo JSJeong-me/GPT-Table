@@ -10,10 +10,10 @@ https://github.com/JSJeong-me/GPT-Table.
 
 
 ![fig-0](https://github.com/JSJeong-me/GPT-Table/assets/54794815/88f1bc23-3624-47f1-8744-51caa3e60b88)
-#### Fig. 1.  Example of reorganizing a complex form area into an Excel table
+### Fig. 1.  Example of reorganizing a complex form area into an Excel table
 
 ![fig-01](https://github.com/JSJeong-me/GPT-Table/assets/54794815/40738e0e-6ee2-48bb-8392-8024514b269f)
-# Fig. 2.  An Overview of Structured Data Extraction from Complex Tables for LLM Q&A
+### Fig. 2.  An Overview of Structured Data Extraction from Complex Tables for LLM Q&A
 
 ![fig-3](https://github.com/JSJeong-me/GPT-Table/assets/54794815/109bd86c-9166-40b3-a33c-3e2afc0a54f3)
-# Fig. 3.  Three-Tuple Values Related to 'Total Tax' Summary
+### Fig. 3.  Three-Tuple Values Related to 'Total Tax' Summary
