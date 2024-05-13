@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TaxInvoice xmlns="urn:kr:or:kec:standard:Tax:ReusableAggregateBusinessInformationEntitySchemaModule:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:kr:or:kec:standard:Tax:ReusableAggregateBusinessInformationEntitySchemaModule:1:0 http://www.kec.or.kr/standard/Tax/TaxInvoiceSchemaModule_1.0.xsd">
+	<ExchangedDocument>
+		<ID>202403050957000025946488</ID>
+		<IssueDateTime>20240305134131</IssueDateTime>
+	</ExchangedDocument>
+	<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116">
+<ds:XPath>not(self::*[name()='TaxInvoice'] | ancestor-or-self::*[name() = 'ExchangedDocument'] | ancestor-or-self::ds:Signature)</ds:XPath>
+</ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
+<ds:DigestValue>D5yKHajb8GFa+seCnjHH7qn0dlPsM/fRhk21SJ14+W0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+H6tagj4mPRnTvNsQWPDAYd/eL8Q4J8SqvNJJSNZASd4Xb0ni8X/fs3ipo2WN+KFxCmljunfz+/jX
+uZJLCnfNKZGHNFSHTDgtnWcplV+kbqzNvYrKqW/YUjlxFoibAbJcWV+ILQ2rhDtNGwPft95lIlPh
+P2nUuJoglR8DD75xiCLPb5qBkLsZ+u2lFuxk9T0/IATE0ngQjkgDe2aG9kJ6swgDkTxvbEbiIO7g
+ECha3iPhPRbquPWRzV3beSCPOvRIXE0gE97LoZaa4p4FkWZZoDdBKJ/qDsHFxxMAzO9INN4irraX
+ei7fNWY0bqsS0h8elRvZBSG2pCYA66QzPb/lQw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIF6DCCBNCgAwIBAgIEMb63JjANBgkqhkiG9w0BAQsFADBSMQswCQYDVQQGEwJrcjEQMA4GA1UE
+CgwHeWVzc2lnbjEVMBMGA1UECwwMQWNjcmVkaXRlZENBMRowGAYDVQQDDBF5ZXNzaWduQ0EgQ2xh
+c3MgMzAeFw0yMzEwMTExNTAwMDBaFw0yNDEwMTQxNDU5NTlaMIGeMQswCQYDVQQGEwJrcjEQMA4G
+A1UECgwHeWVzc2lnbjETMBEGA1UECwwKeFVzZTRFc2VybzEOMAwGA1UECwwFV09PUkkxFjAUBgNV
+BAsMDUNPVVBBTkcgQ09SUC4xQDA+BgNVBAMMN+y/oO2MoeyjvOyLne2ajOyCrChDT1VQQU5HIENP
+UlAuKTAwMjA2ODYyMDEzMTAwNDMwMjU0MTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCBsJ5lX1DMp3nHUg33NhdAfcTPN8PyKUt/d7M0CZUEuZtyWJkK00xWVsWTcbQMs/fTf9h57R5Q
+qnywlC3HrnKTniuu1fZrN5tRPIXMIvqQkm6kthjJUZRlyza6gZ0wbFTG7zZfQRVXulKauUT1xNj9
+hpDJyfZkY2iSngaeqszX/jtbM6Y9DbaPhX9zQ+HfXStvDpnuud/nz5/wG77eCNNazFZ0jCaiUcmK
+R/a47ypFhZJvU2iX4vQwDAlmvov2pO/w3fFB3UYZ4RLTbrlseyFv0V/T9v/XpHh5uossOxwDl4r6
+4k1mIi861Jt7xGPkpXdW8pg/GPS9fWDKpNSWsQtZAgMBAAGjggJ3MIICczCBjwYDVR0jBIGHMIGE
+gBTyh6Pm2V4WFnJO2MK8hTkDN1mQxKFopGYwZDELMAkGA1UEBhMCS1IxDTALBgNVBAoMBEtJU0Ex
+LjAsBgNVBAsMJUtvcmVhIENlcnRpZmljYXRpb24gQXV0aG9yaXR5IENlbnRyYWwxFjAUBgNVBAMM
+DUtJU0EgUm9vdENBIDSCAhAoMB0GA1UdDgQWBBR3aeqK5pTmnx+GM2jRp93v20alWTAOBgNVHQ8B
+Af8EBAMCBsAwgY4GA1UdIAEB/wSBgzCBgDB+BgoqgxqMmkUBAQYIMHAwQAYIKwYBBQUHAgIwNB4y
+x3QAIMd4yZ3BHLKUACCuCMc1rLDIHMbQxdDBHAAgvByuCdVcACDHeMmdwRzHhbLIsuQwLAYIKwYB
+BQUHAgEWIGh0dHA6Ly93d3cueWVzc2lnbi5vci5rci9jcHMuaHRtMHEGA1UdEQRqMGigZgYJKoMa
+jJpECgEBoFkwVwwS7L+g7Yyh7KO87Iud7ZqM7IKsMEEwPwYKKoMajJpECgEBATAxMAsGCWCGSAFl
+AwQCAaAiBCC6KMh48MvQOFCGJrTlrmmisVzHoKwohi9Vsf8umctLfjByBgNVHR8EazBpMGegZaBj
+hmFsZGFwOi8vZHMueWVzc2lnbi5vci5rcjozODkvb3U9ZHA2cDE2Nzc2LG91PUFjY3JlZGl0ZWRD
+QSxvPXllc3NpZ24sYz1rcj9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0MDgGCCsGAQUFBwEBBCww
+KjAoBggrBgEFBQcwAYYcaHR0cDovL29jc3AueWVzc2lnbi5vcmc6NDYxMjANBgkqhkiG9w0BAQsF
+AAOCAQEACIw7cgueMM03hPgEcNbE+2xuLN8ZdwFj2yoD987AiJHIIkJbW472doQOc75yu28EtsXd
+FBxMf5qRtib+gPjlOfVnDoayhN7BTcZsOyeCy1zJLMtT9pmzQHmQ7G38LdmiE39t7np0EJM5raLd
+8tuPGFDOSVmNFIXEPX12cHmcAkPsrmLZpiJBnA7OegMuxLH0wx2eDQ2ScK5jRxTo1Hj6w8Idhaae
+0maBeqxxYn0Dt1TcBZMDXClUABFRoQ5Yj6McEmnwbKDxDiOHGzZ4zZ82ByHbvSoqjmYI7sTfPCmN
+fI1bbwdZcJhkjnal0Dowb3kXs3ocxivoY/1hCh+hZuqHIQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><TaxInvoiceDocument>
+		<IssueID>2024022942000172amai7a9c</IssueID>
+		<TypeCode>0101</TypeCode>
+		<DescriptionText></DescriptionText>
+		<IssueDateTime>20240229</IssueDateTime>
+		<PurposeCode>01</PurposeCode>
+	</TaxInvoiceDocument>
+	<TaxInvoiceTradeSettlement>
+		<InvoicerParty>
+			<ID>1208800767</ID>
+			<TypeCode>소매, 서비스</TypeCode>
+			<NameText>쿠팡 주식회사</NameText>
+			<ClassificationCode>통신판매업, 전자상거래업, 광고대행업</ClassificationCode>
+			<SpecifiedPerson>
+				<NameText>강한승, 박대준</NameText>
+			</SpecifiedPerson>
+			<SpecifiedAddress>
+				<LineOneText>서울특별시 송파구 송파대로 570 (신천동)</LineOneText>
+			</SpecifiedAddress>
+		</InvoicerParty>
+		<InvoiceeParty>
+			<ID>1233297178</ID>
+			<TypeCode>수집하지 않음</TypeCode>
+			<NameText>ABC로보</NameText>
+			<ClassificationCode>수집하지 않음</ClassificationCode>
+			<SpecifiedOrganization>
+				<BusinessTypeCode>01</BusinessTypeCode>
+			</SpecifiedOrganization>
+			<SpecifiedPerson>
+				<NameText>야옹님</NameText>
+			</SpecifiedPerson>
+			<PrimaryDefinedContact>
+				<DepartmentNameText></DepartmentNameText>
+				<PersonNameText></PersonNameText>
+				<TelephoneCommunication></TelephoneCommunication>
+				<URICommunication>jjjeong@abc.co.kr</URICommunication>
+			</PrimaryDefinedContact>
+			<SpecifiedAddress>
+				<LineOneText>서울특별시 영등포구 의사당로 10 ABC-802</LineOneText>
+			</SpecifiedAddress>
+		</InvoiceeParty>
+		<SpecifiedMonetarySummation>
+			<ChargeTotalAmount>9082</ChargeTotalAmount>
+			<TaxTotalAmount>908</TaxTotalAmount>
+			<GrandTotalAmount>9990</GrandTotalAmount>
+		</SpecifiedMonetarySummation>
+	</TaxInvoiceTradeSettlement>
+	<TaxInvoiceTradeLineItem>
+		<SequenceNumeric>1</SequenceNumeric>
+		<DescriptionText></DescriptionText>
+		<InvoiceAmount>9082</InvoiceAmount>
+		<InformationText></InformationText>
+		<NameText>판매수수료</NameText>
+		<PurchaseExpiryDateTime>20240229</PurchaseExpiryDateTime>
+		<TotalTax>
+			<CalculatedAmount>908</CalculatedAmount>
+		</TotalTax>
+	</TaxInvoiceTradeLineItem>
+</TaxInvoice>
