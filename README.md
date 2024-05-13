@@ -1,2 +1,2 @@
 # GPT-Table
-GPT Table Semantic Parsing
+GPT Table Semantic Parsing[Paper]()
