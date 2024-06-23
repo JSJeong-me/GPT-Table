@@ -1,5 +1,5 @@
 # GPT-Table
-### GPT Table Semantic Parsing [[Paper](https://drive.google.com/file/d/1edpW9TkiNPAEhD5NvFgQOv2i73wFiEBz/view?usp=sharing)]
+### GPT Table Semantic Parsing [[Paper](https://drive.google.com/file/d/1edpW9TkiNPAEhD5NvFgQOv2i73wFiEBz/view?usp=sharing)] [[Presentation](https://drive.google.com/file/d/1SwL9L86k7TUbbC0vaRMbVe8fn9EFTrPl/view?usp=sharing)]
 
 # An Empirical Study of the Structural Understanding Capabilities of LLMs on Financial Document Tables
 # Abstract
